@@ -10,7 +10,7 @@ exports.aboutMe = (req, res, next) => {
   // display the about me page 
   res.render('aboutMe', {
     title: 'About Me',
-    message: ' welcome to my portfolio',
+    message: ' welcome to my portfolio \n I am 23 years old, I am currently enrolled in Computer Programming Analyst program at Georgian College. My hopes are to work for a bank like RBC / BMO or GOV Canada on mainframe services.',
   });
 };
 
@@ -20,6 +20,7 @@ exports.project = (req, res, next) => {
   res.render('project', {
     title: 'Projects',
     message: ' welcome to my portfolio',
+    
   });
 };
 
